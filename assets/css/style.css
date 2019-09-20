@@ -1,6 +1,20 @@
 #topGraphic {
     background: #20b946;
     font-family: 'Modak', cursive;
-    color: #0c73da
+    color: #0c73da;
+    margin-bottom: 0%;
 }
 
+#instructions {
+    background: #c98404;
+    font-family: 'Modak', cursive;
+    color: #0c73da;
+    text-align: center;
+}
+
+.gameBoard{
+    background: #c98404;
+    font-family: 'Modak', cursive;
+    color: #0c73da;
+    text-align: center; 
+}
