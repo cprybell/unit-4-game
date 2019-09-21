@@ -19,11 +19,11 @@
         <div class="row py-5 mx-0">
             <div class="col-3  py-5 border border-success gameBoard">
                 Number to Guess:
-                <p class="displayText">75</p>
+                <p class="displayText" id="targetScore"></p>
             </div>
             <div class="col-3 py-5 border border-success gameBoard">
                 Your Score:
-                <p class="displayText">0</p>
+                <p class="displayText" id="userScore"></p>
             </div>
             <div class="col-6 py-5 border border-success gameBoard">
                 <div class = "container mx-0">
@@ -47,14 +47,15 @@
         <div class="row mx-0">
             <div class="col-3 py-5 border border-success gameBoard">
                 WINS:
-                <p class="displayText">0</p>
+                <p class="displayText" id="wins">0</p>
             </div>
             <div class="col-3 py-5 border border-success gameBoard">
                 LOSSES:
-                <p class="displayText">0</p>
+                <p class="displayText" id="losses">0</p>
             </div>
         </div>
     </div>
+    <script src="assets/javascript/game.js"></script>
 </body>
 
 
