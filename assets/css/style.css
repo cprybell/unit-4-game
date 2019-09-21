@@ -16,5 +16,14 @@
     background: #c98404;
     font-family: 'Modak', cursive;
     color: #0c73da;
-    text-align: center; 
+    text-align: center;
+    font-size: 1.2em;
+}
+
+body {
+    background-image: url("../images/morocco-blue.png");
+}
+
+.displayText {
+    font-size: 1.4em;
 }
